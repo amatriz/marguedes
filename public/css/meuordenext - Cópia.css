@@ -1,0 +1,402 @@
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+input {
+    margin: 5px;
+}
+
+
+/*
+* headers - topo das paginas
+*/
+
+.navbar-nav.navbar-right .btn {
+    margin: 10px 20px !important;
+}
+
+.mylogo {
+    margin-top: -6px;
+}
+
+.headerhome {
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background-image: url('/image/fotoheaderhome.jpg');
+    background-position: left top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px !important;
+}
+
+.headerhome2 {
+    width: 100%;
+    height: 100vh;
+    height: 100%;
+    min-height: 100%;
+    background-color: #E8E8E9;
+    padding-top: 60px;
+    margin: 0px !important;
+}
+
+.headerhome2 img {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 220px;
+}
+
+.headervendedores {
+    width: 100%;
+    height: 100vh;
+    height: 100%;
+    min-height: 660px;
+    background-image: url('/image/fotovendedor.jpg');
+    background-position: left top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px !important;
+    float: left;
+}
+
+.headerfornecedores {
+    width: 100%;
+    height: 100vh;
+    height: 100%;
+    min-height: 660px;
+    background-image: url('/image/fotofornecedor.jpg');
+    background-position: left top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px !important;
+    float: left;
+}
+
+.headercompradores {
+    width: 100%;
+    height: 100vh;
+    height: 100%;
+    min-height: 660px;
+    background-image: url('/image/fotocomprador.jpg');
+    background-position: left top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px !important;
+    padding: 0px;
+    float: left;
+}
+
+.boxtextocomprador {
+    height: auto;
+    bottom: 0px;
+    padding-top: 12%;
+    padding-bottom: 10%;
+}
+
+.boxtextocomprador h1 {
+    font-size: 48px;
+}
+
+.boxtextocomprador h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.boxtextocomprador ol {
+    margin-bottom: 40px;
+}
+
+.boxtextocomprador ol li {
+    font-size: 25px;
+}
+
+.boxtextovendedor {
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    padding-top: 15%;
+}
+
+.boxtextovendedor h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(/image/barra.png);
+    background-repeat: repeat;
+    width: auto;
+}
+
+.boxtextovendedor h2 {
+    color: #FfF;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    margin-bottom: 30px;
+}
+
+.boxtextofornecedor {
+    width: 90%;
+    height: auto;
+    padding-bottom: 10% !important;
+    bottom: 0px;
+    padding-top: 55%;
+}
+
+.boxtextofornecedor h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(/image/barra.png);
+    background-repeat: repeat;
+    width: auto;
+}
+
+.boxtextofornecedor h2 {
+    color: #FFC926;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    margin-top: 10%;
+}
+
+.boxheader {
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.boxheader>h1 {
+    color: #B20000;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.home1 {
+    margin-top: 24%;
+}
+
+.home2 {
+    margin-top: 6%;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 0;
+    border-top: 1px solid #C4BFBF !important;
+}
+
+.carousel-control.left {
+    background-image: none !important;
+}
+
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.funciona {
+    height: 500px;
+}
+
+.funciona hr {
+    margin-top: 8px !important;
+    margin-bottom: 60px !important;
+    border: 0;
+    border-top: 1px solid red !important;
+}
+
+.funciona h1 {
+    margin-bottom: 30px;
+}
+
+.funciona h3 {
+    margin-bottom: 30px !important;
+}
+
+.funciona img {
+    width: 100%;
+}
+
+.boxheader>h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    float: left;
+}
+
+.boxheader2 {
+    margin-top: 11%;
+}
+
+.menu {
+    margin-top: 28px;
+}
+
+
+/*
+* Main Pages
+*/
+
+.mainhome {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding: 15px;
+}
+
+.mainhome img {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.mainhome h1 {
+    text-align: left;
+    color: #B20000;
+    font-weight: bold;
+    margin-top: 18%;
+    margin-left: 5px;
+}
+
+.mainhome h2 {
+    text-align: left;
+    color: #0F0F0F;
+    margin-top: 15px !important;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.mainhome h4 {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    color: #fff;
+}
+
+.mainhome article {
+    margin-left: 5px;
+    margin-bottom: 25%;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.main2 {
+    padding: 15px;
+    width: 100%;
+    background: #eee;
+	height: auto;
+}
+
+.main2 h1 {
+    margin-top: 18%;
+    text-align: right;
+    color: #B20000;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.main2 h2 {
+    text-align: right;
+    color: #0F0F0F;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.main2 img {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.main2 div {
+	padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.botaodireita {
+    align-items: right;
+    align-content: right;
+    float: right;
+}
+
+.main3 {
+    padding: 15px;
+    width: 100%;
+    min-height: auto;
+	height: 90vh;
+	height: 850px;
+	background-color: #fff;
+}
+
+.main3 h1 {
+    margin-top: 18%;
+    text-align: left;
+    color: #B20000;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.main3 img {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.main3 h2 {
+    text-align: left;
+    color: #0F0F0F;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.main3 article {
+    margin-left: 5px;
+    margin-bottom: 25%;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.planos {
+    background-color: #FFC926;
+}
+
+
+/*
+* Emails de Notificação 
+*/
+
+.corpo {
+    width: 600px;
+}
+
+footer {}
+
+footer .foo1 {
+    background-color: #72811F;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+footer .foo {
+    background-color: #BCD146;
+    padding: 5px;
+    display: none;
+}

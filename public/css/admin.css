@@ -1,0 +1,7 @@
+
+.sidebar  ul  { text-decoration: none; list-style: none; margin-left: -15px !important;}
+.sidebar  ul li {color: white; width: 100%;}
+.sidebar  ul li a {color: white; font-weight: bold; }
+.sidebar  ul li ul { }
+.sidebar  ul li ul li {margin-bottom: 1px; margin-left: 0px; margin-left: 0px; width: 100%;}
+.sidebar  ul li  ul li a {color: white; }

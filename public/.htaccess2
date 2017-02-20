@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+RewriteEngine On
+
+# Forbid non-secure POSTs
+RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_METHOD} =POST
+RewriteRule ^ / [F,L]
+
+# Force SSL
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+</IfModule>
